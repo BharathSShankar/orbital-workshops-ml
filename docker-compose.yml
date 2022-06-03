@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  orbitalxsds:
+    image: orbitalxsds
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5000:5000
